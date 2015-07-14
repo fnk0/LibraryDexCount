@@ -18,6 +18,35 @@ A empty Android app with the App Compact v7 library has: 14439 methods.
 compile 'com.android.support:appcompat-v7:22.2.0'
 ```
 
+### Google Play Services v7.5.0
+
+Note that most all the Play services share the Base Dependency which by itself is ** 3876 methods ** so
+when adding multiple services the amount of methods for each library will drastically reduce. I will eventually update this with disclosure
+of the dependencies inside play services as well.
+
+##### Play Services Base: 3876 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-base:7.5.0'
+```
+
+##### Google Plus: 5144 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-plus:7.5.0'
+```
+
+##### Play Services Identity: 3987 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-identity:7.5.0'
+```
+
+##### Play Services App Indexing: 4289 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-appindexing:7.5.0'
+```
 
 ### Common 3rd Party libraries
 
