@@ -48,6 +48,18 @@ compile 'com.google.android.gms:play-services-identity:7.5.0'
 compile 'com.google.android.gms:play-services-appindexing:7.5.0'
 ```
 
+##### Google Maps: 6281 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-maps:7.5.0'
+```
+
+##### Android Wear: 5452 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-wearable:7.5.0'
+```
+
 ### Common 3rd Party libraries
 
 ##### ButterKnife v7.0.1: 203 methods
