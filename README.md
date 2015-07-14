@@ -6,6 +6,10 @@ All the method counts where extracted using this tool: http://inloop.github.io/a
 
 A empty Android app with the App Compact v7 library has: 14439 methods.
 
+The count for each library by itself was done taking in consideration the following formula:
+
+Empty Project + App Compact v7 = 14439 - (Total Methods after compilation with the library)
+
 ### Android Support Libraries
 
 ##### AppCompact v7:22.2.0: 11736 methods
