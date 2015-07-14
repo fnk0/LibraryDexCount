@@ -20,7 +20,7 @@ compile 'com.android.support:appcompat-v7:22.2.0'
 
 ### Google Play Services v7.5.0
 
-Note that most all the Play services share the Base Dependency which by itself is ** 3876 methods ** so
+Note that most all the Play services share the Base Dependency which by itself is **3876 methods** so
 when adding multiple services the amount of methods for each library will drastically reduce. I will eventually update this with disclosure
 of the dependencies inside play services as well.
 
@@ -59,6 +59,19 @@ compile 'com.google.android.gms:play-services-maps:7.5.0'
 ```groovy
 compile 'com.google.android.gms:play-services-wearable:7.5.0'
 ```
+
+##### Google Fit: 9912 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-fitness:7.5.0'
+```
+
+##### Google Drive: 6397 methods
+
+```groovy
+compile 'com.google.android.gms:play-services-drive:7.5.0'
+```
+
 
 ### Common 3rd Party libraries
 

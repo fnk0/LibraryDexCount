@@ -38,5 +38,7 @@ dependencies {
 //    compile 'com.google.android.gms:play-services-base:7.5.0'
 //    compile 'com.google.android.gms:play-services-appindexing:7.5.0'
 //    compile 'com.google.android.gms:play-services-maps:7.5.0'
-    compile 'com.google.android.gms:play-services-wearable:7.5.0'
+//    compile 'com.google.android.gms:play-services-wearable:7.5.0'
+//    compile 'com.google.android.gms:play-services-fitness:7.5.0'
+    compile 'com.google.android.gms:play-services-drive:7.5.0'
 }
