@@ -4,6 +4,8 @@ LibraryDexCount is a simple repository to display how many methods the most popu
 
 All the method counts where extracted using this tool: http://inloop.github.io/apk-method-count/
 
+A empty Android app with the App Compact v7 library has: 14439 methods.
+
 ### Android Support Libraries
 
 ##### AppCompact v7:22.2.0: 11736 methods
@@ -25,26 +27,35 @@ compile 'com.android.support:appcompat-v7:22.2.0'
 compile 'com.jakewharton:butterknife:7.0.1'
 ```
 
-##### Okhttp v2.0.0: 1964 methods
+##### Okhttp v2.0.0: 2292 methods
 
 * Dependencies:
+   * Okhttp: 1578
    * Okio: 381 methods
+   * Others: 333 methods
 
 ```groovy
 compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
 compile 'com.squareup.okhttp:okhttp:2.0.0'
 ```
 
-##### Picasso v2.5.2: 536 methods
+##### Picasso v2.5.2: 687 methods
 
+* Dependencies
+    * Picasso: 536
+    * Okhttp: 25 methods
+    * Others:126 methods
 ```groovy
 compile 'com.squareup.picasso:picasso:2.5.2'
 ```
 
-##### Retrofit v1.9.0: 492 methods
+##### Retrofit v1.9.0: 1767 Total methods
 
 * Dependencies:
-   * Okhttp: 1964 methods
+   * Retrofit: 492 methods
+   * Okhttp: 25 methods
+   * Gson: 964 Methods
+   * Others: 286 methods
    
 ```groovy
 compile 'com.squareup.retrofit:retrofit:1.9.0'
@@ -55,3 +66,8 @@ compile 'com.squareup.retrofit:retrofit:1.9.0'
 ```groovy
 compile 'com.squareup.okio:okio:1.5.0'
 ```
+
+##### Otto v1.3.8: 85 methods
+
+```groovy
+compile 'com.squareup:otto:1.3.8'```
